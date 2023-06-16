@@ -20,11 +20,11 @@ export default function Page() {
         <HeroSection/>
         <Features />
         <Services />
-        <AboutUs />
         <Sessions />
+        <AboutUs />
         <Pricing />
-        <Testimonials />
         <Instructor />
+        <Testimonials />
         <Contact />
         <Download />
         <Footer />

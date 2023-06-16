@@ -3,7 +3,7 @@ import phone from "../assets/phone.gif";
 
 const Footer = () => {
   return (
-    <footer aria-label="Site Footer" className="bg-pink-light text-black">
+    <footer aria-label="Site Footer" className="bg-[#f3f3f3] text-black">
       <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8">
         <div className="flex flex-col gap lg:flex-row lg:gap-28">
           <div className="flex flex-col basis-1/2 ">
@@ -104,12 +104,17 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex basis-1/4 flex-col mt-10 grid-cols-3 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:col-span-2 relative">
-            <div className="text-center sm:text-left">
-              <span className="font-inter capitalize text-base">
-                <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i <br />
-                gate, bartand, dhanbad, jharkhand,
-                <br /> india (826001){" "}
+          <div className="flex basis-1/4 self-end flex-col mt-10 grid-cols-3 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:col-span-2 relative">
+            <div className="text-center flex flex-col sm:text-left gap-2">
+              <span className="font-Poppins">
+                <strong>Email</strong>: support@thetutorlancer.com
+              </span>
+              <span className="font-Poppins">
+                <strong>Phone</strong>: +91 628940944
+              </span>
+              <span className="font-Poppins capitalize text-base">
+                <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i India
+                (826001){" "}
               </span>
             </div>
 
@@ -124,7 +129,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mt-12 w-full border-t border-white pt-6 pb-12">
+      <div className="mt-12 w-full border-t border-white bg-[#eaeaea] pt-6 pb-12">
         <div className=" mx-auto max-w-screen-xl px-4 text-center sm:flex sm:justify-between sm:text-left">
           <div className="flex flex-row">
             <div className="flex flex-row gap-3 ">

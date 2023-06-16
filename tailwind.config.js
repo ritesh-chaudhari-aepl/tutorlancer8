@@ -9,8 +9,9 @@ module.exports = {
         darkBg: "#323131",
         dark1: "#2c231d",
         dark2: "#464542",
-        primaryWhite: "#F9FBFC",
+        primaryWhite: "#F1EEFF",
         white: "#FFFFFF",
+        home8Bg: "#f8f9fa",
         black: "#000000",
         red: {
           100: "#fee2e2",
@@ -26,7 +27,7 @@ module.exports = {
           dark: "#FFC529",
           normal: "#ffb800",
           light: "#FFCF59",
-          home8: "#feb400"
+          home8: "#feb400",
         },
         orange:{
           main:"#FF7714",
@@ -40,6 +41,7 @@ module.exports = {
           slateBlue: "#3D81C2",
           light: "#0166FF",
           text:'#5360E2',
+          bgLight: "#f1f6f9",
           
         },
         violet: {
@@ -61,7 +63,7 @@ module.exports = {
           pinkLight: "#feebee",
           hotPink: "#FF5FA8",
           darkPink: "#FF1850",
-          900:'#F63955'
+          900:'#F63955',
         },
         gray:{
           dark:'#808080',

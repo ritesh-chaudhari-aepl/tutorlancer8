@@ -18,8 +18,8 @@ const HeroSection = () => {
         </div>
 
         {/* <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25  sm:bg-gradient-to-l" /> */}
-        <div className="relative mx-auto max-w-screen-xl px-4 py-6 sm:px-6 md:flex h-auto lg:items-center justify-between lg:px-8">
-          <div className="w-1/2 text-center sm:text-left">
+        <div className="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 md:flex h-auto lg:items-center justify-between lg:px-8">
+          <div className="flex xs:w-full md:w-1/2 text-center sm:text-left">
             <h1 class="text-3xl font-Poppins uppercase text-yellow-light font-extrabold lg:text-5xl">
               Educate!
               <strong class="mt-3 block font-Poppins uppercase font-extrabold text-white">
@@ -48,8 +48,8 @@ const HeroSection = () => {
               </a>
             </div>
           </div>
-          <div className="flex w-1/2 justify-end pt-8 sm:text-right">
-            <div className="relative md:w-[80%] w-full bg-white border-1 shadow-md rounded-sm">
+          <div className="flex xs:w-full md:w-1/2 justify-end pt-8 mt-10 sm:text-right">
+            <div className="relative md:w-[70%] w-full bg-white border-1 shadow-md rounded-sm">
               <div className="envelope-top h-auto lg:pb-8 md:pb-4">
                 <div className="absolute h-auto">
                   <Image src={envelopeTop} alt="background image" />

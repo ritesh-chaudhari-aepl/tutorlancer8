@@ -10,14 +10,14 @@ import Image from "next/image";
 
 const Sessions = () => {
   return (
-    <section className="bg-primaryWhite">
+    <section className="bg-white">
       <div className="mx-auto max-w-screen-xl mt-16 sm:mt-0 py-14 sm:py-24">
         <div>
           <div className=" mb-24">
-            <h3 className="capitalize text-3xl font-bold sm:text-4xl leading-[50px] px-3 sm:px-0 text-center sm:leading-[60px] mb-6">
+            <h3 className="capitalize text-3xl font-medium font-Poppins text-blue-main sm:text-4xl leading-[50px] px-3 sm:px-0 text-center sm:leading-[60px] mb-6">
               online sessions with the best tutors
             </h3>
-            <p className="capitalize text-sm font-Inter font-[400] text-center leading-[30px] sm:text-base sm:leading-[27px] sm:px-0 px-6">
+            <p className="capitalize text-sm font-roboto font-[500] text-center leading-[30px] sm:text-base sm:leading-[27px] sm:px-0 px-6">
               Our tutors are experts from various domains, they have all
               experience to handle your queries
               <br /> with ease. Get the best solutions on your personal phone
