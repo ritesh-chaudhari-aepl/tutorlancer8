@@ -33,7 +33,7 @@ const Pricing = () => {
             </p> */}
           </div>
 
-          <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3">
+          <div className="mt-12 grid grid-cols-1 gap-5 lg:gap-8 md:grid-cols-3 lg:grid-cols-3">
             <PricingCard
               title="standard"
               plan="30$"

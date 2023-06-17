@@ -104,7 +104,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex basis-1/4 self-end flex-col mt-10 grid-cols-3 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:col-span-2 relative">
+          <div className="flex basis-1/4 lg:self-end flex-col mt-10 grid-cols-3 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:col-span-2 relative">
             <div className="text-center flex flex-col sm:text-left gap-2">
               <span className="font-Poppins">
                 <strong>Email</strong>: support@thetutorlancer.com
@@ -130,11 +130,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-12 w-full border-t border-white bg-[#eaeaea] pt-6 pb-12">
-        <div className=" mx-auto max-w-screen-xl px-4 text-center sm:flex sm:justify-between sm:text-left">
-          <div className="flex flex-row">
-            <div className="flex flex-row gap-3 ">
+        <div className="container mx-auto max-w-screen-xl px-4 text-center sm:flex sm:justify-between sm:text-left">
+          <div className="md:w-1/2 flex justify-center flex-row gap-2">
+            <div className="flex flex-row gap-2 ">
               <a
-                className="inline-block text-black transition hover:text-black/75"
+                className="inline-block text-sm text-black transition hover:text-black/75"
                 href="/"
               >
                 Terms & Conditions
@@ -142,10 +142,9 @@ const Footer = () => {
 
               <span className="mr-3">|</span>
             </div>
-
-            <div className="flex flex-row gap-3 ">
+            <div className="flex flex-row gap-2 ">
               <a
-                className="inline-block text-black transition hover:text-black/75"
+                className="inline-block text-sm text-black transition hover:text-black/75"
                 href="/"
               >
                 Privacy Policy
@@ -153,9 +152,9 @@ const Footer = () => {
 
               <span className="mr-3">|</span>
             </div>
-            <div className="flex sm:flex-row gap-3 ">
+            <div className="flex sm:flex-row gap-2 ">
               <a
-                className="inline-block text-black transition hover:text-black/75"
+                className="inline-block text-sm text-black transition hover:text-black/75"
                 href="/"
               >
                 Refund
@@ -163,7 +162,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <p className="mt-4 text-[10px] sm:text-sm text-black sm:order-first sm:mt-0">
+          <p className="md:w-1/2 flex justify-center mt-4 text-[10px] sm:text-sm text-black sm:order-first sm:mt-0">
             © 2022 thetutorlancer.com. All rights reserved Abhay Education Pvt.
             Ltd.
           </p>

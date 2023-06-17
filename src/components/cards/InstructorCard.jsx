@@ -47,7 +47,7 @@ const InstructorCard = ({
   };
 
   const cardClasses = classNames(
-    "flex flex-col text-black gap-12 items-center bg-white cursor-pointer text-left md:text-left rounded-md border border-pink-500/10 sm:p-8 lg:p-14 shadow-md transition",
+    "flex flex-col text-black gap-12 items-center bg-white cursor-pointer text-left md:text-left rounded-md border border-pink-500/10 p-6 md:p-8 xl:p-14 shadow-md transition",
     {
       "hover:shadow-blue-light -translate-y-4": isHovered,
     }

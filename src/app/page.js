@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <>
       <Header/>
-      <div className='mt-34 lg:mt-34 md:mt-32'>
+      <div className='mt-24 lg:mt-30 md:mt-28'>
         <HeroSection/>
         <Features />
         <Services />

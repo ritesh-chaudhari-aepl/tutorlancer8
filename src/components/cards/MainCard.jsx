@@ -34,7 +34,7 @@ const MainCard = ({ icon, title, description }) => {
   };
 
   const cardClasses = classNames(
-    "flex flex-row text-white gap-3 justify-center bg-blue-main cursor-pointer text-left md:text-left rounded-xl shadow-pink-light  border border-pink-500/10 p-8 shadow-md transition mb-4",
+    "flex flex-row text-white gap-3 justify-center bg-blue-main cursor-pointer text-left md:text-left rounded-xl shadow-pink-light  border border-pink-500/10 xl:p-8 p-6 shadow-md transition mb-4",
     {
       "hover:shadow-blue-light -translate-y-4": isHovered,
     }
@@ -61,10 +61,10 @@ const MainCard = ({ icon, title, description }) => {
     >
       <div className={iconClasses}>{icon}</div>
       <div className="flex flex-col">
-        <span className="text-lg sm:text-xl capitalize font-Poppins font-semibold mb-2">
+        <span className="text-lg capitalize font-Poppins font-semibold mb-2">
           {title}
         </span>
-        <p className="text-sm md:text-[14px] font-Poppins font-semibold sm:text-left mt-2">
+        <p className="text-sm lg:text-[14px] lg:leading-6 lg:tracking-wide xl:tracking-normal font-Roboto font-medium sm:text-left mt-2">
           {description}
         </p>
       </div>

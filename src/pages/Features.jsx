@@ -15,7 +15,7 @@ const Features = () => {
 
   return (
     <section id="features" className="bg-white text-black">
-      <div className="container mx-auto max-w-screen-x  lg:mt-6 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
+      <div className="container mx-auto max-w-screen-x  lg:mt-6 md:mt-0 px-4 py-14 md:py-0 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
         {/* <div className="mx-auto max-w-lg text-center">
           <div className="flex flex-col items-center">
             <h2 className="text-3xl font-bold mb-2 sm:text-4xl">Features</h2>
@@ -28,7 +28,7 @@ const Features = () => {
           </p>
         </div> */}
 
-        <div className="mt-12 px-8 lg:px-24 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 px-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <MainCard
               icon={<HeadphonesOutlinedIcon />}
               title="24/7 Support"

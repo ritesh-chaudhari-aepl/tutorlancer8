@@ -17,7 +17,7 @@ const Testimonials = () => {
     <div>
       <section
         id="testimonials"
-        className="container relative block box-content bg-cover bg-center bg-no-repeat overflow-hidden object-fill"
+        className="relative block box-content bg-cover bg-center bg-no-repeat overflow-hidden object-fill"
       >
         <div className="absolute inset-0">
           <Image
@@ -26,7 +26,7 @@ const Testimonials = () => {
             style={testimonialBanner}
           />
         </div>
-        <div className="relative flex p-12 lg:p-20 flex-col align-middle items-center m-auto">
+        <div className="container relative flex sm:px-6 p-12 lg:p-16 flex-col align-middle items-center m-auto">
           <div className=" text-center pb-9 font-sans text-white">
             <div>Testimonial</div>
             <div className="font-Poppins capitalize text-3xl sm:text-4xl py-5 text-white font-medium">
@@ -34,10 +34,10 @@ const Testimonials = () => {
             </div>
           </div>
           <div className="flex max-w-3xl text-center gap-3 items-center m-auto">
-            <button className="bg-home8Bg p-4 rounded-full">
+            <button className="bg-home8Bg sm:p-3 lg:p-4 rounded-full">
               <ArrowBackIosIcon className="text-blue-main" />
             </button>
-            <div className="bg-white py-10 rounded-xl border-2 shadow-md shadow-btnColor gap-3 p-3">
+            <div className="bg-white py-8 md:py-10 rounded-xl border-2 shadow-md shadow-btnColor gap-5 p-3">
               <div className="font-Roboto italic text-16 text-black">
                 {" "}
                 Tutorlancer has helped me not only understand the subject but
@@ -58,7 +58,7 @@ const Testimonials = () => {
               <div className="font-sans text-sm text-black">UI/UX Designer</div>
               {/* <span className="font-DmSerifDisplay text-5xl text-pink-pinkLight items-right">"</span> */}
             </div>
-            <button className="bg-home8Bg p-4 rounded-full">
+            <button className="bg-home8Bg sm:p-3 lg:p-4 rounded-full">
               <ArrowForwardIosIcon className="text-blue-main" />
             </button>
           </div>

@@ -37,7 +37,7 @@ const Services = () => {
             </p> */}
           </div>
 
-          <div className="mt-12 px-8 lg:px-24 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <CustomCard
               icon={<PeopleOutlinedIcon />}
               title="Online Tutoring"

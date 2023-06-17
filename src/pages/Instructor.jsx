@@ -10,7 +10,7 @@ import schedule from "../assets/icons/schedule.svg";
 const Instructor = () => {
   return (
     <section id="instructors" className="bg-home8Bg text-black">
-      <div className="container mx-auto max-w-screen-x lg:pt-16 md:mt-0 px-4 py-14 sm:py-24 sm:px-16 lg:py-16 ">
+      <div className="container mx-auto max-w-screen-x lg:pt-16 md:mt-0 px-4 py-14 sm:py-24 sm:px-16 lg:py-20 ">
         <div className="mx-auto max-w-lg text-center">
           <div className="flex flex-col items-center">
             <h6 className="tracking-wide uppercase font-Roboto font-medium text-orange-home8">
@@ -28,7 +28,7 @@ const Instructor = () => {
             </p> */}
         </div>
 
-        <div className="mt-12 px-8 lg:px-24 grid grid-cols-1 gap-8 md:grid-cols-2">
+        <div className="mt-12 grid grid-cols-1 gap-6 lg:gap-8 md:grid-cols-2">
           <InstructorCard
             icon1={freeRegistration}
             icon2={findTutor}
