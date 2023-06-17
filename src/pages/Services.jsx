@@ -8,6 +8,8 @@ import DataUsageOutlinedIcon from "@mui/icons-material/DataUsageOutlined";
 import VideoCameraFrontOutlinedIcon from "@mui/icons-material/VideoCameraFrontOutlined";
 import DriveFileRenameOutlineOutlinedIcon from "@mui/icons-material/DriveFileRenameOutlineOutlined";
 import ContentPasteSearchOutlinedIcon from "@mui/icons-material/ContentPasteSearchOutlined";
+import CustomCard from "@/components/cards/CustomCard";
+import user from "@/assets/user.svg";
 
 const Services = () => {
   const iconstyle = {
@@ -16,146 +18,71 @@ const Services = () => {
 
   return (
     <div>
-      <section id="services" className="bg-white text-black">
-        <div className="mx-auto max-w-screen-x  lg:mt-16 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
+      <section id="services" className="bg-home8Bg text-black">
+        <div className="container mx-auto max-w-screen-x lg:pt-16 md:mt-0 px-4 py-14 sm:py-24 sm:px-16 lg:py-16 ">
           <div className="mx-auto max-w-lg text-center">
-            <h2 className="text-3xl font-bold sm:text-4xl">Our Services</h2>
-
-            <p className="mt-4 text-black">
+            <div className="flex flex-col items-center">
+              <h6 className="tracking-wide uppercase font-Roboto font-medium text-orange-home8">
+                our services
+              </h6>
+              <h2 className="text-3xl font-medium font-Poppins mt-2 text-blue-main sm:text-4xl">
+                Pick the right services build your career
+              </h2>
+              {/* <span className="h-[2px] bg-pink-darkPink  w-16 mb-4" /> */}
+            </div>
+            {/* <p className="mt-4 text-black">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
               fugit consequuntur saepe laborum.
-            </p>
+            </p> */}
           </div>
 
           <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-blue-main p-4 hover:text-white hover:bg-blue-main transition hover:border-blue-main">
-                <PeopleOutlinedIcon style={iconstyle} />
-              </div>
+            <CustomCard
+              icon={<PeopleOutlinedIcon />}
+              title="Online Tutoring"
+              iconBgColor="#000"
+            />
 
-              <h2 className="mt-4 text-xl uppercase font-bold text-black">
-                Online Tutoring
-              </h2>
+            <CustomCard
+              icon={<AccessTimeOutlinedIcon />}
+              title=" 24/7 Support"
+              iconBgColor="#000"
+            />
 
-              <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
-            </a>
+            <CustomCard
+              icon={<ImportantDevicesOutlinedIcon />}
+              title="live sessions"
+              iconBgColor="#000"
+            />
 
-            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-blue-main p-4 hover:text-white hover:bg-blue-main transition hover:border-blue-main">
-                <AccessTimeOutlinedIcon style={iconstyle} />
-              </div>
+            <CustomCard
+              icon={<ScienceOutlinedIcon />}
+              title="Lab work"
+              iconBgColor="#000"
+            />
 
-              <h2 className="mt-4 text-xl uppercase font-bold text-black">
-                24/7 Support
-              </h2>
+            <CustomCard
+              icon={<DataUsageOutlinedIcon />}
+              title="project help"
+              iconBgColor="#000"
+            />
+            <CustomCard
+              icon={<VideoCameraFrontOutlinedIcon />}
+              title="video calling support"
+              iconBgColor="#000"
+            />
 
-              <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
-            </a>
-
-            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-blue-main p-4 hover:text-white hover:bg-blue-main transition hover:border-blue-main">
-                <ImportantDevicesOutlinedIcon style={iconstyle} />
-              </div>
-
-              <h2 className="mt-4 text-xl uppercase font-bold text-black">
-                live sessions
-              </h2>
-
-              <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
-            </a>
-
-            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-blue-main p-4 hover:text-white hover:bg-blue-main transition hover:border-blue-main">
-                <ScienceOutlinedIcon style={iconstyle} />
-              </div>
-
-              <h2 className="mt-4 text-xl font-bold uppercase text-black">
-                Lab work
-              </h2>
-
-              <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
-            </a>
-
-            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-blue-main p-4 hover:text-white hover:bg-blue-main transition hover:border-blue-main">
-                <DataUsageOutlinedIcon style={iconstyle} />
-              </div>
-
-              <h2 className="mt-4 text-xl font-bold uppercase text-black">
-                project help
-              </h2>
-
-              <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
-            </a>
-
-            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-blue-main p-4 hover:text-white hover:bg-blue-main transition hover:border-blue-main">
-                <VideoCameraFrontOutlinedIcon style={iconstyle} />
-              </div>
-
-              <h2 className="mt-4 text-xl font-bold uppercase text-black">
-                video calling support
-              </h2>
-
-              <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
-            </a>
-
-            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-blue-main p-4 hover:text-white hover:bg-blue-main transition hover:border-blue-main">
-                <DriveFileRenameOutlineOutlinedIcon style={iconstyle} />
-              </div>
-
-              <h2 className="mt-4 text-xl font-bold uppercase text-black">
-                writing help
-              </h2>
-
-              <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
-            </a>
-
-            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-blue-main p-4 hover:text-white hover:bg-blue-main transition hover:border-blue-main">
-                <ContentPasteSearchOutlinedIcon style={iconstyle} />
-              </div>
-
-              <h2 className="mt-4 text-xl font-bold uppercase text-black">
-                homework help
-              </h2>
-
-              <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
-            </a>
+            <CustomCard
+              icon={<DriveFileRenameOutlineOutlinedIcon />}
+              title="writing help"
+              iconBgColor="#000"
+            />
+            <CustomCard
+              icon={<ContentPasteSearchOutlinedIcon />}
+              title="homework help"
+              iconBgColor="#000"
+            />
           </div>
 
           {/* <div className="mt-12 text-center">
