@@ -34,9 +34,9 @@ function MobileNav() {
         <div className="item-center justify-center gap-8 flex flex-col lg:hidden">
           <a
             href="#"
-            className="flex gap-2 items-center rounded-full bg-green-dark px-8 py-4 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
+            className="flex gap-2 items-center rounded-full bg-gradient-to-r from-orange-home8 to-yellow-home8 px-8 py-4 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
           >
-            <BsWhatsapp className="text-xl font-bold" />
+            <BsWhatsapp className="text-xl font-bold sm:text-md" />
             Chat on Whatsapp
           </a>
           {/* <a

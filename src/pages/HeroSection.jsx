@@ -16,7 +16,7 @@ const HeroSection = () => {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     width: "-webkit-fill-available",
-    height: "-webkit-fill-available",
+    height: "110vh",
   };
   return (
     <div className="pt-28 md:pt-30 lg:pt-28 lg:pb-8">
@@ -71,7 +71,7 @@ const HeroSection = () => {
                 </div>
               </div>
               <div className="md:w-3/4 mx-auto lg:py-12 md:py-6">
-                <div className="flex flex-wrap -m-2">
+                <div className="flex flex-wrap md:-m-2">
                   <div className="p-2 w-full gap-1">
                     <div className="relative">
                       <input

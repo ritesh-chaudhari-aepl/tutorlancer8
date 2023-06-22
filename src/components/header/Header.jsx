@@ -46,7 +46,7 @@ function Header({ myRef }) {
           {/* <span className="font-Inter font-bold tracking-[10px] text-2xl uppercase sm:text-[30px]">
             logo2-nobg
           </span> */}
-          <Image src={logo} className="w-24" alt="logo" />
+          <Image src={logo} className="md:w-24 w-20" alt="logo" />
         </a>
         {/* nav - initially hidden - show on desktop mode */}
         {/* <div className="hidden sm:flex lsm:items-center sm:gap-3"> */}
@@ -57,9 +57,9 @@ function Header({ myRef }) {
         <div className="flex">
           <a
             href="#"
-            className="flex gap-2 items-center rounded-full bg-green-dark md:px-8 md:py-4 px-4 py-2 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
+            className="flex gap-2 items-center rounded-full bg-gradient-to-r from-orange-home8 to-yellow-home8 md:px-8 md:py-4 px-3 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
           >
-            <BsWhatsapp className="text-xl font-bold" />
+            <BsWhatsapp className="md:text-xl md:font-bold text-lg font-normal" />
             Chat on Whatsapp
           </a>
           {/* <a
@@ -71,13 +71,13 @@ function Header({ myRef }) {
           {/* cta button - initially hidden - show on desktop mode */}
           {/* mobile nav trigger btn - hidden on desktop */}
           <button
-            className="lg:hidden ml-4"
+            className="lg:hidden md:ml-4 ml-2"
             onClick={() => setMobileNav(!mobileNav)}
           >
             {mobileNav ? (
-              <HiOutlineX className="text-3xl text-white" />
+              <HiOutlineX className="text-3xl text-orange-500" />
             ) : (
-              <AiOutlineMenu className="text-3xl text-white" />
+              <AiOutlineMenu className="text-3xl text-orange-500" />
             )}
           </button>
           {/* mobile nav - hidden on desktop */}
