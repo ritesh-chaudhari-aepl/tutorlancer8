@@ -3,7 +3,7 @@ export const nav = [
     { name: 'Services', href: 'services' },
     { name: 'Features', href: 'features' },
     { name: 'Pricing', href: 'pricing' }, 
-    { name: 'Review', href: 'testimonials' },
+    // { name: 'Review', href: 'testimonials' },
     { name: 'Contact us', href: 'contact' },
     // { name: 'Become A Tutor', href: '#tutor' },
     // { name: 'Admin', href: '#admin' },

@@ -8,7 +8,7 @@ import Instructor from '@/pages/Instructor'
 import Pricing from '@/pages/Pricing'
 import Services from '@/pages/Services'
 import Sessions from '@/pages/Sessions'
-import Testimonials from '@/pages/Testimonials'
+// import Testimonials from '@/pages/Testimonials'
 import Header from '@/components/header/Header'
 
 
@@ -24,7 +24,7 @@ export default function Page() {
         <AboutUs />
         <Pricing />
         {/* <Instructor /> */}
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
         <Download />
         <Footer />
