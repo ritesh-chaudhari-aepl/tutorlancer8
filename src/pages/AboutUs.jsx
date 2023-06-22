@@ -5,7 +5,7 @@ import about from "../assets/aboutus-8.png";
 const AboutUs = () => {
   return (
     <div>
-      <section id="aboutus" className="bg-home8Bg">
+      <section id="about" className="bg-home8Bg">
         <div className="container mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-12 lg:px-8">
           <div className="mx-auto max-w-lg text-center">
             <div className="flex flex-col items-center">
@@ -34,24 +34,29 @@ const AboutUs = () => {
 
             <div className="lg:py-16 text-center md:text-left">
               <h3 className="font-medium font-Poppins text-2xl tracking-wider leading-8 mb-2">
-                Perspiciatis unde omnis iste natus error inventore.
+                Get Instant Help 24x7 Online Tutoring, Live Sessions,
+                Assignments
               </h3>
               <p className="font-Roboto capitalize font-medium text-[14px]">
-                Perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
+                Alpha Tutor is an online platform that connects online tutors
+                with students across the globe who seeks academic help. We help
+                students across the globe who are stuck with their subjects, by
+                connecting them with tutors. We aim to strategically connect
+                students and tutors online
               </p>
-            <h3 className="font-Poppins tracking-wide text-xl leading-7 font-medium pt-4 pb-3">Dolor sit amet consectetur adipisicing elit. unde, quasi.</h3>
+              {/* <h3 className="font-Poppins tracking-wide text-xl leading-7 font-medium pt-4 pb-3">
+                Dolor sit amet consectetur adipisicing elit. unde, quasi.
+              </h3>
               <p className="font-Roboto font-medium mb-3">
-              Nemo dolores, iusto pariatur corporis quis ulam harum voluptate porro officiis aliquam quas explicabo?
+                Nemo dolores, iusto pariatur corporis quis ulam harum voluptate
+                porro officiis aliquam quas explicabo?
               </p>
               <p className="font-Roboto font-medium">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
                 qui hic atque tenetur quis eius quos ea neque sunt, accusantium
                 soluta minus veniam tempora deserunt? Molestiae eius quidem quam
                 repellat.
-              </p>
+              </p> */}
 
               {/* <a
                 href="#"

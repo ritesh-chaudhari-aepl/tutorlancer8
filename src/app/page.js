@@ -9,26 +9,26 @@ import Pricing from '@/pages/Pricing'
 import Services from '@/pages/Services'
 import Sessions from '@/pages/Sessions'
 import Testimonials from '@/pages/Testimonials'
-import Header from '@/pages/header'
+import Header from '@/components/header/Header'
 
 
 export default function Page() {
   return (
     <>
+      {/* <div className='mt-24 lg:mt-30 md:mt-28'> */}
       <Header/>
-      <div className='mt-24 lg:mt-30 md:mt-28'>
         <HeroSection/>
         <Features />
         <Services />
         <Sessions />
         <AboutUs />
         <Pricing />
-        <Instructor />
+        {/* <Instructor /> */}
         <Testimonials />
         <Contact />
         <Download />
         <Footer />
-      </div>
+      {/* </div> */}
     </>
   )
 }

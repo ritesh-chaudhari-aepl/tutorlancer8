@@ -1,5 +1,6 @@
 import Image from "next/image";
-import phone from "../assets/phone.gif";
+// import phone from "../assets/phone.gif";
+import logo from "../assets/logo2-nobg.png";
 
 const Footer = () => {
   return (
@@ -8,17 +9,18 @@ const Footer = () => {
         <div className="flex flex-col gap lg:flex-row lg:gap-28">
           <div className="flex flex-col basis-1/2 ">
             <div className="flex justify-center text-black sm:justify-start">
-              <span className="text-[25px] tracking-[10px] border border-white p-2">
+              {/* <span className="text-[25px] tracking-[10px] border border-white p-2">
                 LOGO
-              </span>
+              </span> */}
+              <Image src={logo} className="w-24" alt="logo" />
             </div>
             <div className="flex flex-col mt-10 gap-2 leading-[30px] ">
               <p>
-                Tutorlancer is an online platform that connects online tutors
+                Alpha Tutor is an online platform that connects online tutors
                 with students across the globe who seeks academic help.
               </p>
               <span className="font-inter">
-                <strong>Email</strong>: support@thetutorlancer.com
+                <strong>Email</strong>: support@thealphatutor.com
               </span>
               <span className="font-inter">
                 <strong>Phone</strong>: +91 628940944
@@ -107,7 +109,7 @@ const Footer = () => {
           <div className="flex basis-1/4 lg:self-end flex-col mt-10 grid-cols-3 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:col-span-2 relative">
             <div className="text-center flex flex-col sm:text-left gap-2">
               <span className="font-Poppins">
-                <strong>Email</strong>: support@thetutorlancer.com
+                <strong>Email</strong>: support@thealphatutor.com
               </span>
               <span className="font-Poppins">
                 <strong>Phone</strong>: +91 628940944
@@ -163,7 +165,7 @@ const Footer = () => {
           </div>
 
           <p className="md:w-1/2 flex justify-center mt-4 text-[10px] sm:text-sm text-black sm:order-first sm:mt-0">
-            © 2022 thetutorlancer.com. All rights reserved Abhay Education Pvt.
+            © 2022 thealphatutor.com. All rights reserved Abhay Education Pvt.
             Ltd.
           </p>
         </div>

@@ -103,12 +103,56 @@
 // import { ToastContainer, toast } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
 
+"use client";
+import axios from "axios";
+import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+
 const Contact = () => {
-  //   const showToastMessage = () => {
-  //     toast.success("Message Sent Successfully", {
-  //       position: toast.POSITION.TOP_RIGHT,
-  //     });
-  //   };
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [phone, setPhone] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
+
+  const showToastMessage = async () => {
+    const data = {
+      device_number: "Device 11",
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    };
+
+    if (!name || !email || !phone || !subject || !message) {
+      toast.warning("Please fill all required data.", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      return;
+    }
+
+    const sendData = await axios.post(
+      "https://dev6apis.el.r.appspot.com/api/deviceWeb/saveDeviceWebData",
+      data
+    );
+    console.log(sendData.data.success);
+    if (sendData.data.success) {
+      toast.success("Message Sent Successfully", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      setName();
+      setEmail();
+      setPhone();
+      setSubject();
+      setMessage();
+    } else {
+      toast.error("Something went wrong", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+    }
+  };
+
   return (
     <section id="contact" className="">
       <div className="max-w-screen-2xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
@@ -120,11 +164,14 @@ const Contact = () => {
             Contact Us Now
           </h1>
         </div>
-        <div className="xl:w-1/2 md:w-2/3 mx-auto">
+        <form className="xl:w-1/2 md:w-2/3 mx-auto" onSubmit={showToastMessage}>
           <div className="flex flex-wrap -m-2">
             <div className="p-2 w-full sm:w-1/2">
               <div className="relative">
                 <input
+                  required
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   placeholder="Name"
                   type="text"
                   id="name"
@@ -136,6 +183,9 @@ const Contact = () => {
             <div className="p-2 w-full sm:w-1/2">
               <div className="relative">
                 <input
+                  required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="Email"
                   type="email"
                   id="email"
@@ -147,6 +197,9 @@ const Contact = () => {
             <div className="p-2 w-full sm:w-1/2">
               <div className="relative">
                 <input
+                  required
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                   placeholder="Phone"
                   type="number"
                   id="phone"
@@ -158,6 +211,9 @@ const Contact = () => {
             <div className="p-2 w-full sm:w-1/2">
               <div className="relative">
                 <input
+                  required
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
                   placeholder="Subject"
                   type="text"
                   id="subject"
@@ -169,6 +225,9 @@ const Contact = () => {
             <div className="p-2 w-full">
               <div className="relative">
                 <textarea
+                  required
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   placeholder="Message"
                   rows={4}
                   id="message"
@@ -184,10 +243,10 @@ const Contact = () => {
               >
                 Send Now
               </button>
-              {/* <ToastContainer /> */}
+              <ToastContainer />
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </section>
   );

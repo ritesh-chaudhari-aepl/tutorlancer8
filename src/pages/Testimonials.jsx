@@ -40,7 +40,7 @@ const Testimonials = () => {
             <div className="bg-white py-8 md:py-10 rounded-xl border-2 shadow-md shadow-btnColor gap-5 p-3">
               <div className="font-Roboto italic text-16 text-black">
                 {" "}
-                Tutorlancer has helped me not only understand the subject but
+                Alpha Tutor has helped me not only understand the subject but
                 master the answering techniques required to obtain a istinction.
                 the material is not only well compiled and organies but helps
                 immensely with revision.{" "}

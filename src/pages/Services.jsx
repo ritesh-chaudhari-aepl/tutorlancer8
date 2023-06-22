@@ -19,7 +19,7 @@ const Services = () => {
   return (
     <div>
       <section id="services" className="bg-home8Bg text-black">
-        <div className="container mx-auto max-w-screen-x lg:pt-16 md:mt-0 px-4 py-14 sm:py-24 sm:px-16 lg:py-16 ">
+        <div className="container mx-auto max-w-screen-x lg:pt-16 md:mt-0 px-4 py-14 sm:py-24 sm:px-16 lg:py-0 ">
           <div className="mx-auto max-w-lg text-center">
             <div className="flex flex-col items-center">
               <h6 className="tracking-wide uppercase font-Roboto font-medium text-orange-home8">
@@ -40,7 +40,7 @@ const Services = () => {
           <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <CustomCard
               icon={<PeopleOutlinedIcon />}
-              title="Online Tutoring"
+              title="Apps for Mobile & Web"
               iconBgColor="#000"
             />
 
