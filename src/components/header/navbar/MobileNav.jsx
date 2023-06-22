@@ -36,7 +36,7 @@ function MobileNav() {
             href="#"
             className="flex gap-2 items-center rounded-full bg-gradient-to-r from-orange-home8 to-yellow-home8 px-8 py-4 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
           >
-            <BsWhatsapp className="text-xl font-bold sm:text-md" />
+            <BsWhatsapp className="md:text-xl md:font-bold text-lg font-normal" />
             Chat on Whatsapp
           </a>
           {/* <a
