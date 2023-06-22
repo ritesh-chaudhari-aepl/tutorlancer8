@@ -23,7 +23,8 @@ const Footer = () => {
                 <strong>Email</strong>: support@thealphatutor.com
               </span>
               <span className="font-inter">
-                <strong>Phone</strong>: +91 628940944
+                <strong>Phone</strong>:{" "}
+                <a href="tel:919431552982">+91 94315-52982</a>
               </span>
               {/* <span className="font-inter capitalize text-base">
                 <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i <br />
