@@ -28,8 +28,7 @@ const Footer = () => {
               </span>
               {/* <span className="font-inter capitalize text-base">
                 <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i <br />
-                gate, bartand, dhanbad, jharkhand,
-                <br /> india (826001){" "}
+                gate, bartand, dhanbad, jharkhand, india (826001){" "}
               </span> */}
             </div>
           </div>
@@ -116,8 +115,8 @@ const Footer = () => {
                 <strong>Phone</strong>: +91 628940944
               </span>
               <span className="font-Poppins capitalize text-base">
-                <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i India
-                (826001){" "}
+                <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i gate,
+                bartand, dhanbad, jharkhand, India (826001){" "}
               </span>
             </div>
 
@@ -135,7 +134,20 @@ const Footer = () => {
       <div className="mt-12 w-full border-t border-white bg-[#eaeaea] pt-6 pb-12">
         <div className="container mx-auto max-w-screen-xl px-4 text-center sm:flex sm:justify-between sm:text-left">
           <div className="md:w-1/2 flex justify-center flex-row gap-2">
-            <div className="flex flex-row gap-2 ">
+            <div>
+              <a href="/termandcond" target="_blank">
+                Terms & conditions
+              </a>{" "}
+              |{" "}
+              <a href="/privacy" target="_blank">
+                Privacy Policy
+              </a>{" "}
+              |{" "}
+              <a href="/refund" target="_blank">
+                Refunds
+              </a>
+            </div>
+            {/* <div className="flex flex-row gap-2 ">
               <a
                 className="inline-block text-sm text-black transition hover:text-black/75"
                 href="/"
@@ -162,7 +174,7 @@ const Footer = () => {
               >
                 Refund
               </a>
-            </div>
+            </div> */}
           </div>
 
           <p className="md:w-1/2 flex justify-center mt-4 text-[10px] sm:text-sm text-black sm:order-first sm:mt-0">
