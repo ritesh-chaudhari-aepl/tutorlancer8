@@ -16,10 +16,10 @@ const HeroSection = () => {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     width: "-webkit-fill-available",
-    height: "-webkit-fill-available",
+    height: "110vh",
   };
   return (
-    <div>
+    <div className="pt-28 md:pt-30 lg:pt-28 lg:pb-8">
       <section className="block relative bg-cover bg-center bg-no-repeat bg-white">
         <div className="clipped-banner absolute sm:hidden md:block">
           <Image src={bgbanner} alt="background image" style={banner} />
@@ -31,16 +31,16 @@ const HeroSection = () => {
         {/* <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25  sm:bg-gradient-to-l" /> */}
         <div className="relative mx-auto max-w-screen-xl px-4 py-5 sm:px-6 md:flex h-auto lg:items-center justify-between lg:px-8">
           <div className="flex flex-col xs:w-full md:w-1/2 text-center sm:text-left">
-            <h1 class="text-3xl font-Poppins uppercase text-yellow-light font-extrabold lg:text-5xl">
-              Educate!
-              <strong class="mt-3 block font-Poppins uppercase font-extrabold text-white">
-                Smart is great
+            <h1 class="text-3xl font-Poppins capitalize text-yellow-light font-bold xl:font-extrabold xl:text-5xl">
+              Get Instant Help
+              <strong class="mt-3 block font-Poppins capitalize font-extrabold text-white xl:leading-[4rem]">
+                24x7 Online Tutoring, Live Sessions, Assignments
               </strong>
             </h1>
 
             <p class="mt-5 font-Roboto text-white max-w-lg sm:text-l/relaxed">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-              illo tenetur fuga ducimus numquam ea!
+              Alpha Tutor is an online platform that connects online tutors with
+              students across the globe who seeks academic help.
             </p>
 
             <div class="mt-8 flex flex-wrap gap-4 text-center">
@@ -52,10 +52,10 @@ const HeroSection = () => {
               </a>
 
               <a
-                href="#"
+                href="#sessions"
                 class="block w-full rounded-full bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
               >
-                Become a Tutor
+                Learn More
               </a>
             </div>
           </div>
@@ -71,7 +71,7 @@ const HeroSection = () => {
                 </div>
               </div>
               <div className="md:w-3/4 mx-auto lg:py-12 md:py-6">
-                <div className="flex flex-wrap -m-2">
+                <div className="flex flex-wrap md:-m-2">
                   <div className="p-2 w-full gap-1">
                     <div className="relative">
                       <input

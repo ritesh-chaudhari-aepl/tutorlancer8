@@ -31,7 +31,7 @@ const Header = () => {
               className="block font-bold text-2xl text-blue-main tracking-wide"
               href="/"
             >
-              LOGO
+              Logo
             </a>
           </div>
 

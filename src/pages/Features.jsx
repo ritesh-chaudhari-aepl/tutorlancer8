@@ -29,60 +29,48 @@ const Features = () => {
         </div> */}
 
         <div className="mt-12 px-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <MainCard
-              icon={<HeadphonesOutlinedIcon />}
-              title="24/7 Support"
-              iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
-            />
+          <MainCard
+            icon={<HeadphonesOutlinedIcon />}
+            title="24/7 Support"
+            iconBgColor="#000"
+            description="Alpha Tutor is focused on ensuring to meet the needs of the students around the globe for their assignments."
+          />
 
-            <MainCard
-              icon={<AccessAlarmIcon />}
-              title="on time delivery"
-              iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
-            />
+          <MainCard
+            icon={<AccessAlarmIcon />}
+            title="on time delivery"
+            iconBgColor="#000"
+            description="We make sure your work reach you on time because we know if it's not with you on-time, it will be a waste."
+          />
 
-            <MainCard
-              icon={<SellIcon />}
-              title="competitive pricing"
-              iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
-            />
+          <MainCard
+            icon={<SellIcon />}
+            title="competitive pricing"
+            iconBgColor="#000"
+            description="Our prices are reasonable and pocket-friendly because we understand you better."
+          />
 
-            <MainCard
-              icon={<FindInPageOutlinedIcon />}
-              title="plagiarism free"
-              iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
-            />
+          <MainCard
+            icon={<FindInPageOutlinedIcon />}
+            title="plagiarism free"
+            iconBgColor="#000"
+            description="Get plagiarism free work where each and every assignment is written from scratch to ensure that no content is plagiarized."
+          />
 
-            <MainCard
-              icon={<MonetizationOnOutlinedIcon />}
-              title="refundable"
-              iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
-            />
-            <MainCard
-              icon={<DonutLargeOutlinedIcon />}
-              title="unlimited revisions"
-              iconBgColor="#000"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium."
-            />
+          <MainCard
+            icon={<MonetizationOnOutlinedIcon />}
+            title="refundable"
+            iconBgColor="#000"
+            description="Your payment is secured by paypal and razorpay, upto 100% money back guarantee."
+          />
+          <MainCard
+            icon={<DonutLargeOutlinedIcon />}
+            title="unlimited revisions"
+            iconBgColor="#000"
+            description="You get 100% customized work as per your requirements, we are always willing to accommodate."
+          />
 
-            {/* <MainCard
+          {/* <MainCard
               icon={<DriveFileRenameOutlineOutlinedIcon />}
               title="writing help"
               iconBgColor="#000"
@@ -98,7 +86,7 @@ const Features = () => {
                 quo possimus adipisci distinctio alias voluptatum blanditiis
                 laudantium."
             /> */}
-          </div>
+        </div>
       </div>
     </section>
   );
